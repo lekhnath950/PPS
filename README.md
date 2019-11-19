@@ -440,11 +440,11 @@ __________________________________________________
  **Program no :15**
 * C program to find a factorial*
 ```
- #include <stdio.h>
+    #include <stdio.h>
 
-   int main()
+    int main()
 
-  {
+   {
 
     int n, i;
 
@@ -461,20 +461,20 @@ __________________________________________________
 
         printf("Error! Factorial of a negative number doesn't exist.");
 
-    else
+     else
 
-    {
+     {
         for(i=1; i<=n; ++i)
 
         {
 
             factorial *= i;
       
-  }
+    }
         printf("Factorial of %d = %llu", n, factorial);
-  }
+    }
 
     return 0;
-}
+    }
 ```
 
