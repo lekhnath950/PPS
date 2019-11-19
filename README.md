@@ -7,7 +7,7 @@
 # **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA** 
 
 __________________________________________________
-#**PROGRAM NO:1**
+**PROGRAM NO:1**
 *C program to print "Hello World"*
 
 ```
@@ -22,32 +22,9 @@ __________________________________________________
      Output
   Hello World
 ```
-_________________________________________________
-#**PROGRAM NO:2**
-*C program to print Hello World five times*
-```
-   #include<stdio.h> 
-   int main() 
-   { 	
-     int n,i; 	
-     printf("Enter a number:"); 	
-     scanf("%d",&n); 	
-     for(i=1;i<=n;i++) 	
-     { 		
-        printf("Hello World "); 	
-      } 
-   	return 0; 
-    }
-```
-```
-    Input: 3 
-     Output: 
-     Hello World 
-     Hello World 
-     Hello World
-```
+
 __________________________________________________
-#**Program no:3**
+**Program no:2**
 * C program to check no is odd or even*
 ```
    #include <stdio.h>
@@ -69,7 +46,7 @@ __________________________________________________
  -7 is odd.
 ```
 _________________________________________________
-#**Program no:4**
+**Program no:3**
 *C program to find average of n numbers*
 ```
    #include<stdio.h> 
@@ -103,7 +80,7 @@ _________________________________________________
    Average of entered numbers is = 4.000000
 ```
 __________________________________________________
-#**Program no : 5**
+**Program no : 4**
 *C program to check no is positive or negative*
 ```
      #include <stdio.h> 
@@ -128,7 +105,7 @@ __________________________________________________
 ```
 
 __________________________________________________
-#**Program no: 6**
+**Program no: 5**
 *C program to find prime no*
 ```
     #include <stdio.h>
@@ -167,7 +144,7 @@ __________________________________________________
 ```
 
 __________________________________________________
-#**Program no : 7**
+**Program no : 6**
 *C program to print table of a number*
 ```
        #include <stdio.h>
@@ -198,7 +175,7 @@ __________________________________________________
       9 * 10 = 90 
 ```
 __________________________________________________
-#**Program no 8**
+**Program no 7**
 *C program to print table up to range*
 ```
      #include <stdio.h>
@@ -231,7 +208,7 @@ __________________________________________________
      12 * 8 = 96
 ```
 _________________________________________________
-#**Program no 9**
+**Program no 8**
 *C program to find prime range*
 ```
        #include <stdio.h>
@@ -263,7 +240,7 @@ _________________________________________________
 ```
 
 ______________________________________________
-#**Program no :10**
+**Program no :9**
 *C program to find factorial of a number*
 ```
      #include <stdio.h>
@@ -287,7 +264,7 @@ ______________________________________________
      Factorial of 3 = 6
 ```
 __________________________________________________
-#**Program no : 11**
+**Program no : 10**
 *C program to reverse a number*
 ```
      #include <stdio.h>
@@ -313,7 +290,7 @@ __________________________________________________
      Reversed Number =4321
 ```
 __________________________________________________
-#**Program no: 12**
+**Program no: 11**
 *C program to convert farenhiet to celcius*
 ```
 
@@ -340,7 +317,7 @@ __________________________________________________
      Celcius = 96.11
 ```
 __________________________________________________
-#**Program no :13**
+**Program no :12**
 *C program to find factorial by recursion*
 ```
      #include <stdio.h>
@@ -368,7 +345,7 @@ __________________________________________________
       Factorial of 3= 6
 ```
 __________________________________________________
-#**Program no : 14**
+**Program no : 13**
 *Program to add two matrices*
 ```
       #include <stdio.h>
@@ -406,7 +383,7 @@ __________________________________________________
        }
 ```
 __________________________________________________
-#**Program no :15**
+**Program no :14**
 *C program to multiply two matrices*
 ```
      #include <stdio.h>
@@ -459,7 +436,7 @@ __________________________________________________
          } return 0;}
 
 __________________________________________________
-# **Program no :16**
+ **Program no :15**
 * C program to find a factorial*
 ```
 #include <stdio.h>
