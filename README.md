@@ -25,7 +25,7 @@ __________________________________________________
 
 __________________________________________________
 **Program no:2**
-* C program to check no is odd or even*
+*C program to check no is odd or even*
 ```
    #include <stdio.h>
    int main()
