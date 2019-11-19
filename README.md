@@ -440,7 +440,7 @@ __________________________________________________
  **Program no :15**
 * C program to find a factorial*
 ```
-  #include <stdio.h>
+ #include <stdio.h>
 
    int main()
 
@@ -472,11 +472,9 @@ __________________________________________________
       
   }
         printf("Factorial of %d = %llu", n, factorial);
-
-    }
+  }
 
     return 0;
-
 }
 ```
 
