@@ -8,19 +8,19 @@
 
 __________________________________________________
 **PROGRAM NO:1**
-*C program to print "Hello World"*
+*C program to print "Budding Engineerings"*
 
 ```
   #include<stdio.h>
   int main()
    {
-     printf ("Hello World\n");
+      puts("Budding Engineerings");
      return 0;
    }
 ```
 ```
      Output
-  Hello World
+  Budding Engineerings
 ```
 
 __________________________________________________
