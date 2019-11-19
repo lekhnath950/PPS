@@ -164,43 +164,9 @@ __________________________________________________
     Enter a positive integer: 29
     29 is a prime number.
 ```
+
 __________________________________________________
-#**Program no:7**
-*C program to check no is palindrome or not*
-```
-      #include <stdio.h>
-
-        int main()
-          {
-            int n, r = 0, t;
-
-             printf("Enter a number\n");
-            scanf("%d", &n);
-
-              t = n;
-
-              while (t != 0)
-                {
-                       r = r * 10;
-                       r = r + t%10;
-                       t = t/10;
-                  }
-
-              if (n == r)
-              printf("%d is a palindrome number.\n", n);
-             else
-             printf("%d isn't a palindrome number.\n", n);
-
-              return 0;
-             }
-```
-```
-      Output
-      Enter a number 123321
-      123321is a palindrome number
-```
-__________________________________________________
-#**Program no : 8**
+#**Program no : 7**
 *C program to print table of a number*
 ```
        #include <stdio.h>
@@ -231,7 +197,7 @@ __________________________________________________
       9 * 10 = 90 
 ```
 __________________________________________________
-#**Program no 9**
+#**Program no 8**
 *C program to print table up to range*
 ```
      #include <stdio.h>
@@ -264,7 +230,7 @@ __________________________________________________
      12 * 8 = 96
 ```
 _________________________________________________
-#**Program no 10**
+#**Program no 9**
 *C program to find prime range*
 ```
        #include <stdio.h>
@@ -294,30 +260,9 @@ _________________________________________________
       Enter two numbers :20 50
       Prime numbers between 20 and 50 are: 23 29       31 37 41 43 47
 ```
-_________________________________________________
-#**program no 11**
-*C program to find largest no *
-```
-     #include <stdio.h>
-      int main()
-      { 
-      double n1, n2, n3; 
-       printf("Enter three different numbers: ");                               scanf("%lf %lf %lf", &n1, &n2, &n3);
-        if( n1>=n2 && n1>=n3 )
-       printf("%.2f is the largest number.", n1);               if( n2>=n1 && n2>=n3 ) 
-     printf("%.2f is the largest number.", n2);
-            if( n3>=n1 && n3>=n2 )
-     printf("%.2f is the largest number.", n3); 
-    return 0;
-}
-```
-```
-    Output
-    Enter three numbers: -4.5 3.9 5.6
-    5.60 is the largest number. 
-```
+
 ______________________________________________
-#**Program no :12**
+#**Program no :10**
 *C program to find factorial of a number*
 ```
      #include <stdio.h>
@@ -341,7 +286,7 @@ ______________________________________________
      Factorial of 3 = 6
 ```
 __________________________________________________
-#**Program no : 13**
+#**Program no : 11**
 *C program to reverse a number*
 ```
      #include <stdio.h>
@@ -367,7 +312,7 @@ __________________________________________________
      Reversed Number =4321
 ```
 __________________________________________________
-#**Program no: 14**
+#**Program no: 12**
 *C program to convert farenhiet to celcius*
 ```
 
@@ -394,7 +339,7 @@ __________________________________________________
      Celcius = 96.11
 ```
 __________________________________________________
-#**Program no :15**
+#**Program no :13**
 *C program to find factorial by recursion*
 ```
      #include <stdio.h>
@@ -422,7 +367,7 @@ __________________________________________________
       Factorial of 3= 6
 ```
 __________________________________________________
-#**Program no : 16**
+#**Program no : 14**
 *Program to add two matrices*
 ```
       #include <stdio.h>
@@ -456,7 +401,7 @@ __________________________________________________
        }
 ```
 __________________________________________________
-#**Program no :17**
+#**Program no :15**
 *C program to multiply two matrices*
 ```
      #include <stdio.h>
