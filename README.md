@@ -469,12 +469,12 @@ __________________________________________________
         {
 
             factorial *= i;
-      
-    }
+          
+      }
         printf("Factorial of %d = %llu", n, factorial);
-    }
+      }
 
     return 0;
-    }
+      }
 ```
 
