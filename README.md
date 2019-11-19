@@ -440,12 +440,11 @@ __________________________________________________
  **Program no :15**
 * C program to find a factorial*
 ```
+  #include <stdio.h>
 
-#include <stdio.h>
+   int main()
 
-int main()
-
-{
+  {
 
     int n, i;
 
