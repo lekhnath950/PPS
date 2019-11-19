@@ -438,13 +438,13 @@ __________________________________________________
 
 __________________________________________________
  **Program no :15**
-* C program to find a factorial*
+*C program to find a factorial*
 ```
     #include <stdio.h>
 
     int main()
 
-   {
+     {
 
     int n, i;
 
