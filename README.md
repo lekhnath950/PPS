@@ -477,4 +477,26 @@ __________________________________________________
     return 0;
       }
 ```
+_________________________________________________________________________________
+***Program No. 16***
+*C program to add ten numbers using array*
+```
+    #include <stdio.h>
+ 
+   int main()
+   {
+   int no, sums = 0, c, array[100];
+ 
+   scanf("%d", &no);
+ 
+   for (c = 0; c < no; c++)
+   {
+      scanf("%d", &array[c]);
+      sums = sums + array[c];
+   }
+ 
+   printf("Sum = %d\n",sums);
+ 
+   return 0;
+   }
 
